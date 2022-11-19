@@ -1,5 +1,7 @@
 ## How to use this App
 
+hosted on vercel digip-plus-37jqai89w-sriramarumugham.vercel.app
+
 This is a single-page react application
 Used React router dom v6 for the navigation between pages
 and used the nested routes for navigation between different tabs of the same pages
