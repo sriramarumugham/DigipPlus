@@ -1,0 +1,14 @@
+.tabWrapper{
+    height: 50px;
+}
+.tabWrapper>a{
+    text-decoration: none;
+    color: grey;
+    padding:7px 0px;
+
+}
+.activeTab{
+    font-weight: 700;
+    padding:7px 0px;
+    border-bottom: 4px solid orange;
+}

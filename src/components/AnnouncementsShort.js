@@ -1,14 +1,19 @@
-import React from 'react'
+import React, { useState } from "react";
 
-function AnnouncementsShort({content}) {
+
+// anouncements components with short note and close button 
+
+function AnnouncementsShort({ content }) {
+  const [toggle, setToggle] = useState(true);
   return (
     <div className="announcemtWrapper">
-    <h3>Announcements &#x1F4E2; &#x1F4E2;</h3>
-    <div className="announcementContent short">
-      {content}
+      <span>
+        <button onClick={() => setToggle(!toggle)}> X </button>
+        <strong>Announcements</strong> &#x1F4E2;
+      </span>
+      {toggle && <div className="announcementContent short">{content}</div>}
     </div>
-  </div>
-  )
+  );
 }
 
-export default AnnouncementsShort
+export default AnnouncementsShort;

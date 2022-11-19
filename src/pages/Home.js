@@ -1,10 +1,12 @@
 import React from "react";
-import { AnnouncementsLong  , BoxShadow } from "../components/index";
+import { AnnouncementsLong, BoxShadow } from "../components/index";
 import "../styles/Home.css";
 
 function Home() {
   return (
+
     <div className="homePage page">
+      {/* logo session */}
       <div className="welcomeContainer">
         <img
           className="welcomeLogo"
@@ -12,26 +14,27 @@ function Home() {
         />
         <h1>Welcome to Digipplus </h1>
       </div>
-
+      {/* announcement */}
       <AnnouncementsLong
         content={"loreum ipsum doem fsadjfkkshf fsdhf k sdhf9ewe uehw "}
       />
-
+      {/* different sessions */}
       <div className="sessionsWrapper">
         <h3 className="heading"> Wrok Action </h3>
 
         <div className="sessions">
-        <BoxShadow  content={"Chat"} />
+          <BoxShadow content={"Chat"} />
         </div>
       </div>
-
+      {/* different sessions */}
       <div className="sessionsWrapper">
         <h3 className="heading">Internships</h3>
         <div className="sessions">
-
           <BoxShadow heading={"Solution writing"} content={"write solution"} />
-          <BoxShadow heading={"Video solution writing"} content={"work on writing video solutions"} />
-
+          <BoxShadow
+            heading={"Video solution writing"}
+            content={"work on writing video solutions"}
+          />
         </div>
       </div>
     </div>

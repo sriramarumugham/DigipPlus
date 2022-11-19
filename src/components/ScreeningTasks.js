@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import BoxShadow from "./BoxShadow";
 
 function ScreeningTasks() {
   return (
-    <div>ScreeningTasks</div>
-  )
+    <div>
+      <BoxShadow content={"ScreeningTasks"} heading={"ScreeningTasks"} />
+    </div>
+  );
 }
 
-export default ScreeningTasks
+export default ScreeningTasks;

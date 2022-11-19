@@ -1,5 +1,6 @@
 import React from "react";
 
+//a box shadow components used in many pages
 function BoxShadow({ heading, content }) {
   return (
     <div className="boxShadowContainer">

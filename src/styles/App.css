@@ -1,14 +1,13 @@
-.App {
-}
+
 .page{
   max-width: 1000px;
   margin: 4vh auto;
 }
 .fullPage{
-  max-width: 1500px;
+  max-width: 1400px;
   margin: 4vh auto;
 
 }
 .heading{
-  color: rgb(248, 100, 74)  ;
+  color: rgb(244, 149, 48)  ;
 }

@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
+
+// certification page
 function Certificate() {
-  return (
-    <div className='page'>Certificate</div>
-  )
+  return <div className="page">Certificate</div>;
 }
 
-export default Certificate
+export default Certificate;

@@ -1,0 +1,23 @@
+.jobsPage {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 4vh auto;
+  padding: 5px;
+}
+.tabsSession {
+  width: 20%;
+  min-width: 220px;
+}
+.display {
+  width: 60%;
+  padding: 20px;
+}
+@media screen and (max-width: 755px) {
+  .jobsPage {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
+@media screen and (max-width: 500px) {
+}

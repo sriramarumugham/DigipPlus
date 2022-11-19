@@ -1,0 +1,43 @@
+.bankDetailsForm {
+  max-width: 500px;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+  gap: 10px;
+}
+.bankDetailsForm > input {
+  line-height: 1.5rem;
+  padding: 5px 20px;
+  border: 1px solid rgb(18, 222, 240);
+  border-radius: 5px;
+}
+.bankDetailsForm > button {
+  width: 200px;
+  margin-top: 50px;
+  line-height: 2rem;
+  border: 1px solid transparent;
+  border-radius: 5px;
+
+  background-image: linear-gradient(to right, #f54b38 0%, #f8cf4a 51%);
+}
+
+.btn-grad {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}

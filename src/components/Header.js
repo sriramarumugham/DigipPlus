@@ -2,11 +2,8 @@ import React, { useState } from "react";
 import "../styles/Header.css";
 import { NavLink } from "react-router-dom";
 function Header() {
+  // for the mobile view
   const [showMenu, setShowMenu] = useState(false);
-
-  function toggle() {
-    setShowMenu(showMenu);
-  }
 
   function navigationLinks() {
     const list = (
@@ -51,9 +48,8 @@ function Header() {
                 to="/profile"
                 className={({ isActive }) => (isActive ? "active" : undefined)}
               >
-                PROFILE
+                <img src="https://cdn-icons-png.flaticon.com/512/2922/2922601.png" />
               </NavLink>
-
               <img />
             </div>
           </div>

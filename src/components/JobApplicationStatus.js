@@ -1,9 +1,17 @@
-import React from 'react'
+import React from "react";
+import BoxShadow from "./BoxShadow";
+
+
 
 function JobApplicationStatus() {
   return (
-    <div>JobApplicationStatus</div>
-  )
+    <div>
+      <BoxShadow
+        content={"JobApplicationStatus"}
+        heading={"JobApplicationStatus"}
+      />
+    </div>
+  );
 }
 
-export default JobApplicationStatus
+export default JobApplicationStatus;

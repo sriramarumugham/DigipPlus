@@ -1,9 +1,20 @@
-import React from 'react'
+import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
+import "../styles/Tabs.css";
 
-function Tabs() {
+
+// this componets connects witht the navLink from react router dom 
+function Tabs({ path, data }) {
   return (
-    <div>Tabs</div>
-  )
+    <div className="tabWrapper">
+      <NavLink
+        className={({ isActive }) => (isActive ? "activeTab" : null)}
+        to={path}
+      >
+        {data}
+      </NavLink>
+    </div>
+  );
 }
 
-export default Tabs
+export default Tabs;
