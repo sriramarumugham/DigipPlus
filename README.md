@@ -1,6 +1,6 @@
 ## How to use this App
 
-hosted on vercel digip-plus-37jqai89w-sriramarumugham.vercel.app
+hosted on vercel https://digip-plus.vercel.app/
 
 This is a single-page react application
 Used React router dom v6 for the navigation between pages
