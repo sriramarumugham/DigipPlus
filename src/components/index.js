@@ -1,3 +1,10 @@
 import Header from "./Header";
-
-export {Header};
+import AnnouncementsLong  from "./AnnouncementsLong";
+import AnnouncementsShort from "./AnnouncementsShort";
+import Earnings from "./Earnings";
+import BoxShadow from './BoxShadow';
+import SolutionWriting from './SolutionWriting';
+import VideoSolutionWrtiing from './VideoSolutionWrtiing';
+import ScreeningTasks from './ScreeningTasks';
+import JobApplicationStatus from './JobApplicationStatus';
+export {Header, SolutionWriting, VideoSolutionWrtiing , JobApplicationStatus ,ScreeningTasks, AnnouncementsLong ,   Earnings, AnnouncementsShort  , BoxShadow};

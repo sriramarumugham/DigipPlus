@@ -2,7 +2,7 @@ import React from 'react'
 
 function Certificate() {
   return (
-    <div>Certificate</div>
+    <div className='page'>Certificate</div>
   )
 }
 

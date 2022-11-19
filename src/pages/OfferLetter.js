@@ -2,7 +2,7 @@ import React from 'react'
 
 function OfferLetter() {
   return (
-    <div>OfferLetter</div>
+    <div className='page'>OfferLetter</div>
   )
 }
 

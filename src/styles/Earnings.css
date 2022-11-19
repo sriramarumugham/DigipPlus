@@ -1,0 +1,13 @@
+.earningsWrapper{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red;   */
+    padding: 20px; 
+    height: 200px;
+    width: 140px;
+    margin: 3px;
+}
+.earningsContainer{
+    display: flex;
+    flex-direction: column;
+}

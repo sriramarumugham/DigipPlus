@@ -1,0 +1,35 @@
+.announcemtWrapper{
+    /* position: absolute;
+    top: 100px;
+    right: 10px; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: start;
+    gap: 0px;
+    min-width: 260px;
+    padding: 0px 5px;
+    /* border: 1px solid red; */
+}
+.announcementContent{
+    background-color: rgb(139, 240, 247);
+    display: flex;
+    justify-content: start;
+    box-sizing: border-box;
+    border-radius: 2px;
+    line-height: 2rem;
+    padding: 10px 50px;
+    margin-bottom: 10px;
+    color: rgb(67, 124, 231);
+    margin-left: 10px;
+}
+.announcemtWrapper>.long{
+    width: 100%;
+    /* max-width: 900px; */
+}
+
+.announcemtWrapper>.short{
+    width: 40%;
+    max-width: 250px;
+    padding: 10px;
+}
